@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Science Class</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #555;
+        }
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #444;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to the Data Science Class</h1>
+        <p>Unlocking the power of data-driven insights</p>
+    </header>
+
+    <nav>
+        <a href="#introduction">Introduction</a>
+        <a href="#content">Course Content</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#instructor">Instructor</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="introduction" class="section">
+            <h2>Introduction</h2>
+            <p>Welcome to the Data Science class! This course is designed to provide you with a comprehensive understanding of data science, including data analysis, machine learning, data visualization, and more.</p>
+        </section>
+
+        <section id="content" class="section">
+            <h2>Course Content</h2>
+            <ul>
+                <li>Introduction to Data Science</li>
+                <li>Data Wrangling and Cleaning</li>
+                <li>Exploratory Data Analysis</li>
+                <li>Machine Learning Algorithms</li>
+                <li>Data Visualization Techniques</li>
+                <li>Advanced Topics in AI and ML</li>
+            </ul>
+        </section>
+
+        <section id="schedule" class="section">
+            <h2>Schedule</h2>
+            <p>The course runs from September to December, with classes on Tuesdays and Thursdays from 2 PM - 4 PM.</p>
+        </section>
+
+        <section id="instructor" class="section">
+            <h2>Instructor</h2>
+            <p>Dr. Lawrence Nderu, Ph.D. in Computer Science specializing in AI/ML and fuzzy logic. Dr. Nderu has extensive experience in AI applications in various fields and is passionate about data-driven solutions.</p>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>For any queries, please contact us at <a href="mailto:datascienceclass@example.com">datascienceclass@example.com</a>.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Data Science Class. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
